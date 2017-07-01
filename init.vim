@@ -26,4 +26,4 @@ set expandtab
 execute pathogen#infect()
 
 "Theme setup
-set termguicolors
+colorscheme molokai
