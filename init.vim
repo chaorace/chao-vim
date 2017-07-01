@@ -27,3 +27,4 @@ execute pathogen#infect()
 
 "Theme setup
 colorscheme molokai
+set cursorline
