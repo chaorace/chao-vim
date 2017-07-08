@@ -42,6 +42,10 @@ inoremap jj <ESC>
 map <space>p :CtrlPTag<CR>
 let mapleader = "\<Space>"
 
+"Swapping 0 and ^ mappings
+nnoremap 0 ^
+nnoremap ^ 0
+
 "Sytnax and formatting
 filetype plugin indent on
 syntax on
