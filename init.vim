@@ -61,5 +61,7 @@ set softtabstop=2
 set expandtab
 
 "Theme setup
-colorscheme molokai
+set background=dark
+let g:gruvbox_contrast_dark = "hard"
+colorscheme gruvbox
 set cursorline
