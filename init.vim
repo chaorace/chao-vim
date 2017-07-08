@@ -1,3 +1,42 @@
+"NeoBundle Stuff
+" Note: Skip initialization for vim-tiny or vim-small.
+if 0 | endif
+
+if &compatible
+  set nocompatible               " Be iMproved
+endif
+
+" Required:
+set runtimepath+=~/AppData/Local/nvim/bundle/neobundle.vim/
+
+" Required:
+call neobundle#begin(expand('~/AppData/Local/nvim/bundle'))
+
+" Let NeoBundle manage NeoBundle
+" Required:
+NeoBundleFetch 'Shougo/neobundle.vim'
+
+" My Bundles here:
+NeoBundle 'morhetz/gruvbox'
+NeoBundle 'tpope/vim-surround'
+NeoBundle 'bling/vim-airline'
+NeoBundle 'ctrlpvim/ctrlp.vim'
+NeoBundle 'scrooloose/nerdcommenter'
+NeoBundle 'vim-gitgutter'
+NeoBundle 'easymotion/vim-easymotion'
+NeoBundle 'xolox/vim-easytags'
+NeoBundle 'tpope/vim-sensible'
+" Note: You don't set neobundle setting in .gvimrc!
+
+call neobundle#end()
+
+" Required:
+filetype plugin indent on
+
+" If there are uninstalled bundles found on startup,
+" this will conveniently prompt you to install them.
+NeoBundleCheck
+
 "Shortcuts
 inoremap jj <ESC>
 map <space>p :CtrlPTag<CR>
@@ -14,16 +53,12 @@ set showmatch
 set hlsearch
 set incsearch
 set wildmenu
-set lazyredraw
 
 "Tabs...
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
 set expandtab
-
-"Plugin stuff
-execute pathogen#infect()
 
 "Theme setup
 colorscheme molokai

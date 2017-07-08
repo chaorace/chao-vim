@@ -1,1 +1,4 @@
 .netrwhist
+rplugin.vim
+bundle/*
+!bundle/neobundle.vim
