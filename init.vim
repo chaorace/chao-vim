@@ -19,6 +19,7 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 " My Bundles here:
 NeoBundle 'morhetz/gruvbox'
 NeoBundle 'bling/vim-airline'
+NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'ctrlpvim/ctrlp.vim'
 NeoBundle 'tpope/vim-surround'
 NeoBundle 'scrooloose/nerdcommenter'
@@ -26,6 +27,7 @@ NeoBundle 'vim-gitgutter'
 NeoBundle 'easymotion/vim-easymotion'
 NeoBundle 'xolox/vim-easytags'
 NeoBundle 'tpope/vim-sensible'
+NeoBundle 'bronson/vim-trailing-whitespace'
 " Note: You don't set neobundle setting in .gvimrc!
 
 call neobundle#end()
