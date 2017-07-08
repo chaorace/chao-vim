@@ -18,9 +18,9 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 
 " My Bundles here:
 NeoBundle 'morhetz/gruvbox'
-NeoBundle 'tpope/vim-surround'
 NeoBundle 'bling/vim-airline'
 NeoBundle 'ctrlpvim/ctrlp.vim'
+NeoBundle 'tpope/vim-surround'
 NeoBundle 'scrooloose/nerdcommenter'
 NeoBundle 'vim-gitgutter'
 NeoBundle 'easymotion/vim-easymotion'
