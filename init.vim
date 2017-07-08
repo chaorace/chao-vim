@@ -43,10 +43,16 @@ filetype plugin indent on
 " this will conveniently prompt you to install them.
 NeoBundleCheck
 
-"Shortcuts
+
+"SHORTCUTS
+
+"Map jj to exit
 inoremap jj <ESC>
-map <space>p :CtrlPTag<CR>
+"Set space as the leader key
 let mapleader = "\<Space>"
+
+"Quick tag fuzzy search
+map <space>p :CtrlPBufTagAll<CR>
 
 "Swapping 0 and ^ mappings
 nnoremap 0 ^
