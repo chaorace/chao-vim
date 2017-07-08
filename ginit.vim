@@ -1,1 +1,1 @@
-GuiFont! Fixedsys Excelsior:h12
+GuiFont! Monoid Halftight:h12 
