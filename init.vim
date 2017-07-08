@@ -25,6 +25,7 @@ NeoBundle 'ctrlpvim/ctrlp.vim'
 NeoBundle 'tpope/vim-surround'
 NeoBundle 'scrooloose/nerdcommenter'
 NeoBundle 'vim-gitgutter'
+NeoBundle 'kshenoy/vim-signature'
 NeoBundle 'easymotion/vim-easymotion'
 NeoBundle 'xolox/vim-misc'
 NeoBundle 'xolox/vim-easytags'
@@ -63,6 +64,9 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
+"Signature Settings
+let g:SignatureMarkTextHL = 1
 
 "Editor preferences
 set number
