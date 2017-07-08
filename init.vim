@@ -75,7 +75,6 @@ inoremap VV <C-o>"+p
 
 
 "Sytnax and formatting
-filetype plugin indent on
 syntax on
 set encoding=utf-8
 "Syntastic Settings
