@@ -77,6 +77,12 @@ inoremap VV <C-o>"+p
 "Sytnax and formatting
 syntax on
 set encoding=utf-8
+"Show 100th column
+if (exists('+colorcolumn'))
+    set colorcolumn=100
+    highlight ColorColumn ctermbg=9
+endif
+
 "Syntastic Settings
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
