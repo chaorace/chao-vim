@@ -31,6 +31,7 @@ NeoBundle 'tpope/vim-unimpaired'
 NeoBundle 'xolox/vim-misc'
 NeoBundle 'xolox/vim-easytags'
 NeoBundle 'bronson/vim-trailing-whitespace'
+NeoBundle 'idbrii/vim-endoscope'
 " Note: You don't set neobundle setting in .gvimrc!
 
 call neobundle#end()
