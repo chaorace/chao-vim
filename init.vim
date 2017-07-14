@@ -96,12 +96,24 @@ set showmatch
 set hlsearch
 set incsearch
 set wildmenu
+set autoread
+set so=7
+set ignorecase
+set smartcase
 
-"Tabs...
+"Leave backups to git
+set nobackup
+set nowb
+set noswapfile
+
+"Tabs and indents...
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
 set expandtab
+set smarttab
+set ai
+set si
 
 "Theme setup
 set background=dark
