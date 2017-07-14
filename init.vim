@@ -58,13 +58,6 @@ map <space>p :CtrlPBufTagAll<CR>
 nnoremap 0 ^
 nnoremap ^ 0
 
-"Move lines up/down
-map <space>k :m -2<CR>
-map <space>j :m +1<CR>
-"Move lines up/down visually
-map <space>k :m -2<CR>
-map <space>j :m +1<CR>
-
 "Duplicate line
 map <space>d "gY<CR>"gP
 "Duplicate lines visually
