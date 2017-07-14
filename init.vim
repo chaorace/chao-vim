@@ -33,6 +33,8 @@ NeoBundle 'xolox/vim-misc'
 NeoBundle 'xolox/vim-easytags'
 NeoBundle 'bronson/vim-trailing-whitespace'
 NeoBundle 'idbrii/vim-endoscope'
+NeoBundle 'mileszs/ack.vim'
+
 " Note: You don't set neobundle setting in .gvimrc!
 
 call neobundle#end()
@@ -89,6 +91,15 @@ let g:syntastic_check_on_wq = 0
 
 "Signature Settings
 let g:SignatureMarkTextHL = 1
+
+"Silver Searcher Settings
+if executable('ag')
+  let g:ackprg = 'ag --vimgrep --smart-case'
+endif
+" When you press gv you Ack after the selected text
+vnoremap <silent> gv :call VisualSelection('gv', '')<CR>
+" Open Ack and put the cursor in the right position
+map <leader>g :Ack<space>
 
 "Editor preferences
 set number
