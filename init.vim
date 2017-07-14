@@ -30,7 +30,6 @@ NeoBundle 'easymotion/vim-easymotion'
 NeoBundle 'tpope/vim-unimpaired'
 NeoBundle 'xolox/vim-misc'
 NeoBundle 'xolox/vim-easytags'
-NeoBundle 'tpope/vim-sensible'
 NeoBundle 'bronson/vim-trailing-whitespace'
 " Note: You don't set neobundle setting in .gvimrc!
 
