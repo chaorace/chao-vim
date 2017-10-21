@@ -7,10 +7,10 @@ if &compatible
 endif
 
 " Required:
-set runtimepath+=~/AppData/Local/nvim/bundle/neobundle.vim/
+set runtimepath+=~/.config/nvim/bundle/neobundle.vim/
 
 " Required:
-call neobundle#begin(expand('~/AppData/Local/nvim/bundle'))
+call neobundle#begin(expand('~/.config/nvim/bundle'))
 
 " Let NeoBundle manage NeoBundle
 " Required:
@@ -65,10 +65,6 @@ nnoremap ^ 0
 map <space>d "gY<CR>"gP
 "Duplicate lines visually
 vmap <space>d y'>p
-
-"Paste from Windows clipboard
-inoremap VV <C-o>"+p
-
 
 "Sytnax and formatting
 syntax on
