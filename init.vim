@@ -20,9 +20,7 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'morhetz/gruvbox'
 NeoBundle 'bling/vim-airline'
 NeoBundle 'tpope/vim-fugitive'
-NeoBundle 'scrooloose/syntastic'
 NeoBundle 'ctrlpvim/ctrlp.vim'
-NeoBundle 'terryma/vim-multiple-cursors'
 NeoBundle 'tpope/vim-surround'
 NeoBundle 'scrooloose/nerdcommenter'
 NeoBundle 'airblade/vim-gitgutter'
@@ -30,9 +28,7 @@ NeoBundle 'kshenoy/vim-signature'
 NeoBundle 'easymotion/vim-easymotion'
 NeoBundle 'tpope/vim-unimpaired'
 NeoBundle 'xolox/vim-misc'
-NeoBundle 'xolox/vim-easytags'
 NeoBundle 'bronson/vim-trailing-whitespace'
-NeoBundle 'idbrii/vim-endoscope'
 NeoBundle 'mileszs/ack.vim'
 
 " Note: You don't set neobundle setting in .gvimrc!
@@ -74,16 +70,6 @@ if (exists('+colorcolumn'))
     set colorcolumn=100
     highlight ColorColumn ctermbg=9
 endif
-
-"Syntastic Settings
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
 
 "Signature Settings
 let g:SignatureMarkTextHL = 1

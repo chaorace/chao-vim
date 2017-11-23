@@ -1,1 +1,1 @@
-GuiFont! Monoid Halftight:h12 
+GuiFont! Monoid Halftight:h10
