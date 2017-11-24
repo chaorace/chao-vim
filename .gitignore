@@ -1,5 +1,5 @@
 .netrwhist
 rplugin.vim
-bundle/*
-!bundle/neobundle.vim
-!bundle/neobundle.vim/*
+.vim/bundle/*
+!bundle/Vundle.vim
+!bundle/Vundle.vim/*

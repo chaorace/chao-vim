@@ -1,46 +1,39 @@
-"NeoBundle Stuff
+" Vundle stuff
 " Note: Skip initialization for vim-tiny or vim-small.
 if 0 | endif
 
 if &compatible
   set nocompatible               " Be iMproved
 endif
+filetype off
 
-" Required:
-set runtimepath+=~/.config/nvim/bundle/neobundle.vim/
+set runtimepath+=~/.vim/bundle/Vundle.vim
 
-" Required:
-call neobundle#begin(expand('~/.config/nvim/bundle'))
+call vundle#begin()
 
-" Let NeoBundle manage NeoBundle
-" Required:
-NeoBundleFetch 'Shougo/neobundle.vim'
+Plugin 'VundleVim/Vundle.vim'
 
 " My Bundles here:
-NeoBundle 'morhetz/gruvbox'
-NeoBundle 'bling/vim-airline'
-NeoBundle 'tpope/vim-fugitive'
-NeoBundle 'ctrlpvim/ctrlp.vim'
-NeoBundle 'tpope/vim-surround'
-NeoBundle 'scrooloose/nerdcommenter'
-NeoBundle 'airblade/vim-gitgutter'
-NeoBundle 'kshenoy/vim-signature'
-NeoBundle 'easymotion/vim-easymotion'
-NeoBundle 'tpope/vim-unimpaired'
-NeoBundle 'xolox/vim-misc'
-NeoBundle 'bronson/vim-trailing-whitespace'
-NeoBundle 'mileszs/ack.vim'
+Plugin 'morhetz/gruvbox'
+Plugin 'bling/vim-airline'
+Plugin 'tpope/vim-fugitive'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'tpope/vim-surround'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'kshenoy/vim-signature'
+Plugin 'easymotion/vim-easymotion'
+Plugin 'tpope/vim-unimpaired'
+Plugin 'xolox/vim-misc'
+Plugin 'bronson/vim-trailing-whitespace'
+Plugin 'mileszs/ack.vim'
 
-" Note: You don't set neobundle setting in .gvimrc!
-
-call neobundle#end()
-
-" Required:
+call vundle#end()
 filetype plugin indent on
 
 " If there are uninstalled bundles found on startup,
 " this will conveniently prompt you to install them.
-NeoBundleCheck
+PluginInstall
 
 
 "SHORTCUTS
