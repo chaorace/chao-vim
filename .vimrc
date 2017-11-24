@@ -31,11 +31,6 @@ Plugin 'mileszs/ack.vim'
 call vundle#end()
 filetype plugin indent on
 
-" If there are uninstalled bundles found on startup,
-" this will conveniently prompt you to install them.
-PluginInstall
-
-
 "SHORTCUTS
 
 "Map jj to exit
